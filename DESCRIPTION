@@ -1,0 +1,30 @@
+Package: survrec
+Type: Package
+Title: Estimation of the multivariate distributions for censored gap times
+Version: 1.0
+Date: 2021-10-07
+Authors@R: c(
+	person(
+		given = "Gustavo",
+		family = "Soutinho",
+		role = c("aut", "cre"),
+		email = "gdsoutinho@gmail.com",
+		comment = c(ORCID = "")
+	),
+	person(
+		given = "Luis",
+		family = "Meira-Machado",
+		role = "aut",
+		email = "lmachado@math.uminho.pt",
+		comment = c(ORCID = "0000-0002-8577-7665")
+	) )
+Description: This package provides estimates for the bivariate distribution
+  function and bivariate survival function for censored gap times.
+License: GPL-3
+Depends: R (>= 3.5.0)
+Imports: survival, KernSmooth, graphics, stats, utils
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: yes
+NeedsCompilation: yes
