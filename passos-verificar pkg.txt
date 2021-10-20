@@ -1,0 +1,8 @@
+devtools::document() 
+
+devtools::build() 
+
+devtools::check()
+
+devtools::check_rhub()
+
